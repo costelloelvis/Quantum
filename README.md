@@ -36,9 +36,7 @@ Quantum computing implementations and information protocols.
 
 ## 📐 Theoretical Foundation
 
-A central pillar of this repository is the modeling of electronic transition energy ($E_g$) using the **Brus Equation** for quantum confinement:
-
-$$E_g(R) = E_{bulk} + \frac{\hbar^2 \pi^2}{2R^2} \left(\frac{1}{m_e^*} + \frac{1}{m_h^*}\right) - \frac{1.8 e^2}{4 \pi \epsilon_0 \epsilon_r R}$$
+A central pillar of this repository is the modeling of electronic transition energy ($E_g$) using the **Brus Equation** for quantum confinement.
 
 ---
 
