@@ -1,14 +1,14 @@
-# ⚛️ Quantum Computing Projects Portfolio
+#  Quantum Computing Projects Portfolio
 
 Welcome to my Quantum Computing project repository. This repository contains a collection of simulations, algorithms, and physics-inspired quantum models implemented in Python. It focuses on bridging **theoretical quantum physics** with **computational simulations and quantum programming concepts**.
 
 ---
 
-## 📌 Repository Overview
+##  Repository Overview
 
 This repository is organized into three core specialized modules:
 
-### 🧪 Quantum-Demo
+### Quantum-Demo
 
 Experimental simulations and prototype quantum models focusing on system dynamics.
 
@@ -16,7 +16,7 @@ Experimental simulations and prototype quantum models focusing on system dynamic
 * **Interactive Simulations:** Real-time visualization of quantum phenomena (featured at the University of Nairobi Open Day 2026).
 * **Numerical Testing:** Benchmarking quantum system stability and evolution.
 
-### 🔬 Quantum-Dots
+###  Quantum-Dots
 
 Physics-based modeling of semiconductor nanocrystals, specifically focusing on "Size-Dependent Photoluminescence in Semiconductor Quantum Dots".
 
@@ -24,7 +24,7 @@ Physics-based modeling of semiconductor nanocrystals, specifically focusing on "
 * **Optical Phenomena:** Modeling Auger recombination decay and emission wavelength tuning.
 * **Quantum Confinement:** Analyzing the Quantum Confined Stark Effect (QCSE) and Coulomb interaction comparisons.
 
-### 💻 Personal (Quantum Algorithms & Circuits)
+###  Personal (Quantum Algorithms & Circuits)
 
 Quantum computing implementations and information protocols.
 
@@ -34,13 +34,13 @@ Quantum computing implementations and information protocols.
 
 ---
 
-## 📐 Theoretical Foundation
+##  Theoretical Foundation
 
 A central pillar of this repository is the modeling of electronic transition energy ($E_g$) using the **Brus Equation** for quantum confinement.
 
 ---
 
-## 🎯 Objectives
+##  Objectives
 
 * **Numerical Simulation:** Solve complex quantum physical systems that lack simple analytical solutions.
 * **Information Theory:** Explore the practical implementation of quantum protocols and error modeling.
@@ -49,7 +49,7 @@ A central pillar of this repository is the modeling of electronic transition ene
 
 ---
 
-## 🧰 Technologies Used
+##  Technologies Used
 
 * **Language:** Python 3 (Scientific Computing Stack).
 * **Libraries:** NumPy, SciPy, Matplotlib, QuTiP.
@@ -58,7 +58,7 @@ A central pillar of this repository is the modeling of electronic transition ene
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### 1. Clone the Repository
 
@@ -94,7 +94,7 @@ python Quantum-Dots/energyplot.py
 
 ---
 
-## 📊 Future Improvements
+##  Future Improvements
 
 * [ ] Add interactive Jupyter notebooks for step-by-step algorithm derivations.
 * [ ] Integrate real IBM Quantum backend execution via Qiskit Runtime.
@@ -103,7 +103,7 @@ python Quantum-Dots/energyplot.py
 
 ---
 
-## 👨‍🔬 Author
+##  Author
 
 **Elvis Wanjiru**
 *Physics / Computational Science Student*.
@@ -111,7 +111,7 @@ Deeply interested in Quantum Computing, Semiconductor Physics, and Numerical Sim
 
 ---
 
-## 📜 License
+##  License
 
 This project is open for educational and research use.
 
