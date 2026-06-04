@@ -1,120 +1,250 @@
-#  Quantum Computing Projects Portfolio
+# Quantum Computing & Quantum Physics Portfolio
 
-Welcome to my Quantum Computing project repository. This repository contains a collection of simulations, algorithms, and physics-inspired quantum models implemented in Python. It focuses on bridging **theoretical quantum physics** with **computational simulations and quantum programming concepts**.
+A collection of quantum computing, quantum information, and semiconductor quantum physics projects implemented in Python.
 
----
-
-##  Repository Overview
-
-This repository is organized into three core specialized modules:
-
-### Quantum-Demo
-
-Experimental simulations and prototype quantum models focusing on system dynamics.
-
-* **Quantum Dot Simulations:** Modeling electron behavior in confined potentials.
-* **Interactive Simulations:** Real-time visualization of quantum phenomena (featured at the University of Nairobi Open Day 2026).
-* **Numerical Testing:** Benchmarking quantum system stability and evolution.
-
-###  Quantum-Dots
-
-Physics-based modeling of semiconductor nanocrystals, specifically focusing on "Size-Dependent Photoluminescence in Semiconductor Quantum Dots".
-
-* **Theoretical Models:** Implementations of the Brus and Kayanuma equations.
-* **Optical Phenomena:** Modeling Auger recombination decay and emission wavelength tuning.
-* **Quantum Confinement:** Analyzing the Quantum Confined Stark Effect (QCSE) and Coulomb interaction comparisons.
-
-###  Personal (Quantum Algorithms & Circuits)
-
-Quantum computing implementations and information protocols.
-
-* **Security Protocols:** BB84 Quantum Key Distribution (QKD).
-* **Fundamental Algorithms:** Grover’s Algorithm, Shor’s Algorithm (educational), and Quantum Teleportation.
-* **Circuit Design:** Gate-level implementations (Hadamard, CNOT, Bloch sphere rotation) and noise/error modeling.
+This repository serves as a research and educational portfolio showcasing simulations, algorithms, and computational models that connect theoretical quantum mechanics with practical quantum programming and numerical analysis.
 
 ---
 
-##  Theoretical Foundation
+## Overview
 
-A central pillar of this repository is the modeling of electronic transition energy ($E_g$) using the **Brus Equation** for quantum confinement.
+The repository is organized into three major project areas:
 
----
+### Quantum Demo
 
-##  Objectives
+Interactive and experimental simulations designed to visualize and explore quantum phenomena.
 
-* **Numerical Simulation:** Solve complex quantum physical systems that lack simple analytical solutions.
-* **Information Theory:** Explore the practical implementation of quantum protocols and error modeling.
-* **Bridge the Gap:** Translate theoretical quantum mechanics into executable, reproducible code.
-* **Academic Portfolio:** Demonstrate technical proficiency for advanced study in Quantum Information Science.
+#### Features
 
----
-
-##  Technologies Used
-
-* **Language:** Python 3 (Scientific Computing Stack).
-* **Libraries:** NumPy, SciPy, Matplotlib, QuTiP.
-* **Quantum Frameworks:** Qiskit (Conceptual and partial circuit implementations).
-* **Workflow:** Terminal-centric development optimized for stability and research reproducibility.
+* Quantum system visualization
+* Interactive simulations using Streamlit
+* Numerical experiments and benchmarking
+* Educational demonstrations of quantum behavior
+* Public outreach and academic showcase projects
 
 ---
 
-##  Getting Started
+### Quantum Dots
 
-### 1. Clone the Repository
+A collection of semiconductor quantum-dot simulations focused on nanoscale electronic and optical properties.
+
+#### Research Topics
+
+* Size-dependent photoluminescence
+* Quantum confinement effects
+* Quantum Confined Stark Effect (QCSE)
+* Auger recombination decay
+* Coulomb interaction modeling
+* Semiconductor nanocrystal physics
+
+#### Implemented Models
+
+* Brus Equation
+* Kayanuma Corrections
+* Exciton energy calculations
+* Emission wavelength prediction
+
+---
+
+### Quantum Algorithms & Information
+
+Implementations of foundational quantum computing algorithms and communication protocols.
+
+#### Quantum Protocols
+
+* BB84 Quantum Key Distribution (QKD)
+* Quantum Teleportation
+* Basic quantum cryptography demonstrations
+
+#### Quantum Algorithms
+
+* Grover's Search Algorithm
+* Educational implementation of Shor's Algorithm
+* Quantum circuit construction
+* Statevector simulations
+
+#### Quantum Gates & Circuits
+
+* Hadamard Gate
+* Pauli Gates
+* Controlled-NOT (CNOT)
+* Multi-qubit operations
+* Bloch sphere visualizations
+* Noise and error-model experiments
+
+---
+
+## Scientific Motivation
+
+This repository explores how quantum mechanical principles can be transformed into computational models and executable simulations.
+
+Key goals include:
+
+* Understanding quantum information processing
+* Modeling nanoscale semiconductor systems
+* Investigating quantum communication protocols
+* Developing numerical solutions to quantum mechanical problems
+* Building practical quantum programming experience
+
+---
+
+## Technologies
+
+### Programming Language
+
+* Python 3
+
+### Scientific Computing
+
+* NumPy
+* SciPy
+* Matplotlib
+
+### Quantum Computing
+
+* Qiskit
+* QuTiP
+
+### Interactive Applications
+
+* Streamlit
+
+---
+
+## Installation
+
+### Clone the Repository
 
 ```bash
 git clone https://github.com/costelloelvis/Quantum.git
 cd Quantum
-
 ```
 
-### 2. Install Dependencies
+### Create a Virtual Environment
+
+#### Linux / macOS
 
 ```bash
-pip install streamlit qutip numpy matplotlib qiskit scipy
-
+python3 -m venv venv
+source venv/bin/activate
 ```
 
-### 3. Run Simulations
+#### Windows
 
-* **For Interactive Streamlit Apps:**
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### Install Dependencies
+
+```bash
+pip install numpy scipy matplotlib qutip qiskit streamlit
+```
+
+Or:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## Running Projects
+
+### Interactive Quantum Simulations
+
 ```bash
 streamlit run Quantum-Demo/qds.py
-
 ```
 
+### Quantum Dot Simulations
 
-* **For Standard Physics Scripts:**
 ```bash
 python Quantum-Dots/energyplot.py
-
 ```
 
+### Quantum Computing Scripts
 
+```bash
+python Personal/grover.py
+python Personal/bb84.py
+python Personal/teleportation.py
+```
 
 ---
 
-##  Future Improvements
+## Research Themes
 
-* [ ] Add interactive Jupyter notebooks for step-by-step algorithm derivations.
-* [ ] Integrate real IBM Quantum backend execution via Qiskit Runtime.
-* [ ] Improve visualization using Bloch sphere animations and wavefunction plots.
-* [ ] Package simulations into a unified framework for easier research collaboration.
+### Semiconductor Quantum Physics
+
+* Quantum confinement
+* Excitonic effects
+* Nanostructure optics
+* Electronic transition energies
+
+### Quantum Information Science
+
+* Quantum cryptography
+* Quantum communication
+* Quantum algorithms
+* Quantum error modeling
+
+### Computational Physics
+
+* Numerical simulation
+* Scientific visualization
+* Quantum system dynamics
+* Reproducible scientific computing
 
 ---
 
-##  Author
+## Future Development
 
-**Elvis Wanjiru**
-*Physics / Computational Science Student*.
-Deeply interested in Quantum Computing, Semiconductor Physics, and Numerical Simulation.
+* [ ] IBM Quantum backend integration using Qiskit Runtime
+* [ ] Variational Quantum Eigensolver (VQE)
+* [ ] Quantum Machine Learning experiments
+* [ ] Interactive Jupyter notebooks
+* [ ] Advanced Bloch sphere visualizations
+* [ ] OpenQASM 3 support
+* [ ] Quantum error correction demonstrations
+* [ ] Unified simulation framework
 
 ---
 
-##  License
+## Academic Applications
 
-This project is open for educational and research use.
+This repository is intended for:
 
-```
+* Physics students
+* Computational physics learners
+* Quantum computing enthusiasts
+* Undergraduate research projects
+* Graduate-school portfolio preparation
+* Quantum information science exploration
 
-```
+---
+
+## Author
+
+### Elvis Wanjiru
+
+Physics • Computational Physics • Quantum Computing
+
+Areas of Interest:
+
+* Quantum Information Science
+* Semiconductor Physics
+* Computational Physics
+* Scientific Programming
+* Numerical Simulation
+
+GitHub: https://github.com/costelloelvis
+
+---
+
+## License
+
+This project is available for educational, research, and non-commercial use.
+
+Contributions, feedback, and collaborations are welcome.
