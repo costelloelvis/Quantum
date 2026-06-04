@@ -161,15 +161,15 @@ streamlit run Quantum-Demo/qds.py
 ### Quantum Dot Simulations
 
 ```bash
-python Quantum-Dots/energyplot.py
+python3 Quantum-Dots/energyplot.py
 ```
 
 ### Quantum Computing Scripts
 
 ```bash
-python Personal/grover.py
-python Personal/bb84.py
-python Personal/teleportation.py
+python3 Personal/grover.py
+python3 Personal/bb84.py
+python3 Personal/teleportation.py
 ```
 
 ---
